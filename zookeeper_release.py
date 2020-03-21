@@ -129,7 +129,7 @@ while exit_trigger:
     num_req = input('Which habitat # do you need? 0 to 5 or exit. > ')
     if num_req == 'exit':
         exit_trigger = False
-    if num_req != 'exit':
+    else:
         print(animals[int(num_req)])
 print('See you!')
 
