@@ -125,7 +125,7 @@ animals = [camel, lion, deer, goose, bat, rabbit]
 # Code below created by Windblown_Marionette
 # March 21st 2020
 exit_trigger = True
-while exit_trigger == True:
+while exit_trigger:
     num_req = input('Which habitat # do you need? 0 to 5 or exit. > ')
     if num_req == 'exit':
         exit_trigger = False
